@@ -1,0 +1,64 @@
+.body{
+    background-color: #CDCDCD;
+}
+
+/* .container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+} */
+
+.header{
+    background-image: url(image/обложка.png);
+    position: relative;
+    width: 1500px;
+    height: 860px;
+}
+
+.button_header{
+    bottom: 55px;
+    position: absolute;
+}
+
+.button_bay{
+    display: inline;
+    padding: 5px 15px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    border-color: white;
+    left: 450px;
+}
+
+.button_sold{
+    display: inline;
+    padding: 5px 15px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    border-color: white;
+    left: 700px;
+}
+
+.button_rent{
+    display: inline;
+    padding: 5px 15px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    border-color: white;
+    left:950px;
+}
+
+.for_us{
+    width: 650px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 820px;
+    left: 30%;
+    align-content: center;
+}
