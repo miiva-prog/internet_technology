@@ -54,11 +54,84 @@
 }
 
 .for_us{
-    width: 650px;
-    height: 250px;
+    width: 750px;
+    height: 235px;
     background-color: white;
     position: absolute;
     top: 820px;
-    left: 30%;
+    left: 25%;
     align-content: center;
+}
+
+.header_for_us{
+    right: 130px;
+    position: absolute;
+    bottom: 170px;
+}
+
+.text_header{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    position: absolute;
+    text-align: center;
+    font-size: 13px;
+    bottom: 38px;
+    right: 12px;
+}
+
+.header_top_rent{
+    color: white;
+    position: absolute;
+    top: 1300px;
+    padding-left: 35px;
+    font-size:x-large;
+}
+
+.card_rent{
+    position: absolute;
+    width: 210px;
+    height: 255px;
+    background-color: white;
+    border-radius: 40px;
+    left: 190px;
+    top: 1450px;
+}
+
+.picture_card_rent{
+    position: absolute;
+    width: 210px;
+    height: 135px;
+}
+
+.rectangle_card_rent{
+    background-color: white;
+    width: 210px;
+    height: 40px;
+    position: absolute;
+    top: 115px;
+}
+
+.header_card_rent{
+    position: absolute;
+    margin-top: 100px;
+    left: 50px;
+}
+
+.text_card_rent{
+    text-align: center;
+    position: absolute;
+    font-size: 9px;
+    margin-top: 140px;
+    right: 15px;
+}
+
+.button_card_rent{
+    position: absolute;
+    margin-top: 224px;
+    right: 65px;
+    display: inline;
+    border-radius: 30px;
+    background-color: black;
+    color:white;
+    padding: 3 12px;
 }
