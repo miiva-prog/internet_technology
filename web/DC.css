@@ -2,11 +2,10 @@
     background-color: #CDCDCD;
 }
 
-/* .container{
+.container{
     display: flex;
-    justify-content: center;
     width: 100%;
-} */
+}
 
 .header{
     background-image: url(image/обложка.png);
