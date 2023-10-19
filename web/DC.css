@@ -90,7 +90,7 @@
     right: 12px;
 }
 
-.header_top_rent{
+.header_top{
     color: white;
     position: absolute;
     top: 1300px;
@@ -98,7 +98,7 @@
     font-size:x-large;
 }
 
-.card_rent{
+.card{
     position: absolute;
     width: 210px;
     height: 255px;
@@ -108,18 +108,18 @@
     top: 1450px;
 }
 
-.picture_card_rent{
+.picture_card{
     position: absolute;
     width: 210px;
     height: 135px;
 }
 
-.bold_card_rent{
+.bold_card{
     margin-top: 25px;
     width: 188px;
 }
 
-.rectangle_card_rent{
+.rectangle_card{
     background-color: white;
     width: 210px;
     height: 40px;
@@ -127,13 +127,13 @@
     top: 115px;
 }
 
-.header_card_rent{
+.header_card{
     position: absolute;
     margin-top: 100px;
     left: 50px;
 }
 
-.text_card_rent{
+.text_card{
     text-align: center;
     position: absolute;
     font-size: 9px;
@@ -141,7 +141,7 @@
     right: 15px;
 }
 
-.button_card_rent{
+.button_card{
     position: absolute;
     margin-top: 224px;
     right: 65px;
