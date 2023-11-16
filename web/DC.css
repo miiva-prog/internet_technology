@@ -43,7 +43,7 @@
     display: inline;
     padding: 5px 15px;
     color: white;
-    background-color: black;
+    background-color: transparent;
     border-radius: 20px;
     position: absolute;
     border-color: white;
@@ -149,16 +149,44 @@
     right: 15px;
 }
 
-.button_card{
+.button_card {
     position: absolute;
+    display: inline;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: black;
+    width: 80px;
+    height: 25px;
+    border: none;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
     margin-top: 224px;
     right: 65px;
-    display: inline;
     border-radius: 30px;
-    background-color: black;
-    color:white;
-    padding: 3 12px;
-}
+  }
+     
+  .button_card::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side,white, rgba(255, 255, 255, 0));
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: width .1s ease, height .3s ease;
+    color: black;
+  }
+     
+  .button_card:hover::before {
+    --size: 397px;
+  }
 
 .catalog_picture{
     margin-top: 5px;
@@ -203,16 +231,43 @@
     margin-top: 70px;
 }
 
-.catalog_button{
+.catalog_button {
     position: absolute;
-    margin-left: 308px;
-    margin-top: 370px;
-    width: 150px;
-    height: 50px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    width: 170px;
+    height: 30px;
+    border: 1;
     border-color: white;
-    background-color: transparent;
     color: white;
-}
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    margin-left: 285px;
+    margin-top: 380px;
+  }
+     
+  .catalog_button::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side,white, rgba(255, 255, 255, 0));
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: width .1s ease, height .3s ease;
+    color: black;
+  }
+     
+  .catalog_button:hover::before {
+    --size: 397px;
+  }
 
 .rectangle_black{
     background-color: #100D0D;
